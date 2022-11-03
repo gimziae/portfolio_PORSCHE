@@ -930,7 +930,8 @@ img {
 .test .back_test video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* FOOTER */
@@ -989,4 +990,17 @@ img {
   background: #d5001c;
 }
 
-/*# sourceMappingURL=style.css.map */
+.model {
+  background-color: #313639;
+  width: 100%;
+  height: 100vh;
+}
+.model .card_container {
+  justify-content: space-evenly;
+}
+.model .card_container .card .card-body .car_img {
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  background-image: src;
+}/*# sourceMappingURL=style.css.map */
